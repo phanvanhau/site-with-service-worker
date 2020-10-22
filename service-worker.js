@@ -1,8 +1,8 @@
 var CACHE_NAME = 'site-with-service-worker-v1';
 var urlsToCache = [
-  '/',
-  '/styles.css',
-  '/main.js'
+  '/site-with-service-worker/index.html',
+  '/site-with-service-worker/styles.css',
+  '/site-with-service-worker/main.js'
 ];
 
 self.addEventListener('install', function(event) {
